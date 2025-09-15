@@ -1,0 +1,56 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Font Editor Temporary/Autosave Files
+# Glyphs App
+*.glyphsData
+*.glyphspackage
+*(Autosaved).glyphs
+.glif
+
+# FontLab
+*.vfbak
+*.vfc
+*.vfj
+*.vfdt
+
+# UFO (Unified Font Object) related files
+.ufo/
+*.ufo.backup/
+*.ufo.temp/
+
+# RoboFont
+.roboFontCache/
+
+# Build Artifacts / Generated Fonts
+# If your workflow generates font files from source, ignore the generated ones.
+# Keep the source files (e.g., .glyphs, .ufo) tracked.
+*.ttf
+*.otf
+*.woff
+*.woff2
+*.eot
+*.svg # Often generated for webfonts
+
+# Other common build/output directories
+build/
+dist/
+out/
+
+# Log files
+*.log
+
+# Temporary files
+*~
+*.tmp
+.temp/
+
+# IDE/Editor specific files (common ones)
+.idea/
+.vscode/
+.sublime-project
+.sublime-workspace
+
+# Package manager files (if applicable, e.g., for webfont workflows)
+node_modules/
